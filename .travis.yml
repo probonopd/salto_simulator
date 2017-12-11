@@ -15,7 +15,7 @@ script:
   - make DEBUG=0
   - mkdir -p appdir/usr/{bin,share}
   - cp bin/salto appdir/usr/bin/
-  - mkdir -p appdir/usr/share/salto ; cp -r ./disks appdir/usr/share/salto/ cp -r ./roms appdir/usr/share/salto/
+  - mkdir -p appdir/usr/share/salto ; cp -r ./disks appdir/usr/share/salto/ ; cp -r ./roms appdir/usr/share/salto/
   - mkdir -p appdir/usr/share/applications/ ; cp dist/salto.desktop appdir/usr/share/applications/
   - mkdir -p appdir/usr/share/icons/hicolor/128x128/apps/
   - touch appdir/usr/share/icons/hicolor/128x128/apps/salto.png # FIXME

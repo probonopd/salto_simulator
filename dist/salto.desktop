@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Salto
+Exec=salto
+Comment=Xerox Alto Simulator
+Categories=System;Emulator;
+Type=Application
+Icon=salto

@@ -57,31 +57,30 @@ There's a whole lot of command line switches to disable and enable
 the logging for certain tasks and other sections of the emulation.
 The default settings for logging are:
 
-```
-switch	name			default
+|switch |name 				|default|
+| --- 	| --- 				| ---   |
+|emu	|emulator task			|on|
+|task1	|task 1				|on|
+|task2	|task 2				|on|
+|task3	|task 3				|on|
+|ksec	|disk sector task		|on|
+|task5	|task 5				|on|
+|task6	|task 6				|on|
+|ether	|ethernet task			|on|
+|mrt	|memory refresh task		|on|
+|dwt	|display word task		|on|
+|curt	|cursor task			|on|
+|dht	|display horizontal task	|on|
+|dvt	|display vertical task		|on|
+|part	|parity error task		|on|
+|kwd	|disk word task			|on|
+|task17	|task 17			|on|
+|mem	|memory functions		|off|
+|tmr	|timer functions		|off|
+|dsp	|display functions		|off|
+|dsk	|disk functions			|on|
+|drv	|disk drive emulation		|on|
 
-emu	emulator task		on
-task1	task 1			on
-task2	task 2			on
-task3	task 3			on
-ksec	disk sector task	on
-task5	task 5			on
-task6	task 6			on
-ether	ethernet task		on
-mrt	memory refresh task	on
-dwt	display word task	on
-curt	cursor task		on
-dht	display horizontal task	on
-dvt	display vertical task	on
-part	parity error task	on
-kwd	disk word task		on
-task17	task 17			on
-mem	memory functions	off
-tmr	timer functions		off
-dsp	display functions	off
-dsk	disk functions		on
-drv	disk drive emulation	on
-```
 
 To turn everything off you use `-all`, to turn everything on you use `+all"`.
 To disable a single type `-switch`, to enable it `+switch`.

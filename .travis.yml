@@ -3,12 +3,11 @@ compiler: gcc
 sudo: require
 dist: trusty
 
-
 # Workaround for: https://github.com/travis-ci/travis-ci/issues/8317
 addons:
   apt:
     packages:
-       - libsdl2-dev
+       - libsdl1.2-dev
        - flex
        - bison
 

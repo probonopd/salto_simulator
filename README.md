@@ -3,6 +3,14 @@
 Copyright by Juergen Buchmueller <pullmoll@t-online.de>
 Partially based on info found in Eric Smith's Alto simulator: Altogether.
 
+## Quickstart
+
+Download the AppImage for Linux from the GitHub Releases page, make executable, launch it.
+
+At the promopt, enter `*.run?` to see all runable program files.
+
+http://toastytech.com/guis/salto.html
+
 ## Building
 
 Things you need before you can give it a try.

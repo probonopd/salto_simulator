@@ -1,4 +1,4 @@
-# SALTO - Xerox Alto I/II Simulator.
+# SALTO - Xerox Alto I/II Simulator
 
 Copyright by Juergen Buchmueller <pullmoll@t-online.de>
 Partially based on info found in Eric Smith's Alto simulator: Altogether.

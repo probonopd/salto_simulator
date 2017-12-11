@@ -1,0 +1,12 @@
+#!/bin/bash
+
+HERE="$(dirname "$(readlink -f "${0}")")"
+export APPDIR="$HERE"
+
+cd "$HERE/usr/share/salto" # Workaround for: "rompath roms is invalid"
+
+if [ "$@" == "" ] ; then
+  "$HERE/usr/bin/salto" "disks/st76boot.dsk.Z" # FIXME: Make it possible to select disks
+else
+  "$HERE/usr/bin/salto" "$@"
+fi
